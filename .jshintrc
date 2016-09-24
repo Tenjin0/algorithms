@@ -1,0 +1,10 @@
+{
+    "node": true,
+    "-W080": true,
+    "-W116": false,
+    "-W104": false,
+    "-W119": false,
+    "globals": {
+
+    }
+}
