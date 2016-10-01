@@ -2,29 +2,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Java",
-            "type": "java",
+            "name": "Lancer l'extension",
+            "type": "extensionHost",
             "request": "launch",
-            "stopOnEntry": true,
-            "cwd": "${fileDirname}",
-            "startupClass": "${fileBasename}",
-            "options": [
-                "-classpath",
-                "\"${fileDirname};.\""
-            ]
-        },
-        {
-            "name": "Java Console App",
-            "type": "java",
-            "request": "launch",
-            "stopOnEntry": true,
-            "cwd": "${fileDirname}",
-            "startupClass": "${fileBasename}",
-            "options": [
-                "-classpath",
-                "\"${fileDirname};.\""
+            "runtimeExecutable": "${execPath}",
+            "args": [
+                "--extensionDevelopmentPath=${workspaceRoot}"
             ],
-            "externalConsole": true
+            "stopOnEntry": false,
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/out",
+            "preLaunchTask": "npm"
         }
     ]
 }

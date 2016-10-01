@@ -1,0 +1,18 @@
+{
+  "name": "30_days_of_code",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "devDependencies": {
+    "eslint": "^3.6.1",
+    "eslint-config-google": "^0.6.0",
+    "eslint-plugin-node": "^2.1.1",
+    "eslint-plugin-react": "^6.3.0",
+    "eslint-plugin-require-jsdoc": "^1.0.4"
+  },
+  "license": "ISC"
+}

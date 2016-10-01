@@ -1,3 +1,5 @@
+package fr.tenji.java;
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -8,7 +10,7 @@ class Days1 {
     public static void main(String[] args) {
         int i = 4;
         double d = 4.0;
-        String s = "HackerRank";
+        String s = "HackerRank ";
         Scanner scan = new Scanner(System.in);
         //4scan.nextLine();
         int i2;
@@ -26,5 +28,6 @@ class Days1 {
 //        	the 's' variable above should be printed first. */
         System.out.println(s  +  s2);
         scan.close();
+        
     }
 }
