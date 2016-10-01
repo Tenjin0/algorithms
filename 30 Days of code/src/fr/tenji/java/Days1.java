@@ -1,10 +1,6 @@
 package fr.tenji.java;
 
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 class Days1 {
     public static void main(String[] args) {
