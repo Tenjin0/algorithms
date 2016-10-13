@@ -1,4 +1,4 @@
-package fr.tenji.js;
+package fr.tenji;
 
 public class Main {
 

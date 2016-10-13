@@ -7,9 +7,9 @@ var input_currentline = 0;
 var count = 0;
 process.stdin.on('data', function (data) {
     input_stdin += data;
+    process.stdin.end();
     count++;
     if (count === 3) {
-        process.stdin.end();
     }
 });
 
