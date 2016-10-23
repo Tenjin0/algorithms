@@ -6,6 +6,34 @@ package fr.tenji.java;
 public class Person {
     private int age;
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    private String firstName;
+    private String lastName;
+    private int identification;
+
+    public Person(String firstName, String lastName, int identification) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.identification = identification;
+    }
+    public void printPerson() {
+        System.out.println("Name " + lastName + ", " + firstName + "\nID" + identification);
+    }
     public Person(int initialAge) {
         if (initialAge < 0) {
             this.age = 0;

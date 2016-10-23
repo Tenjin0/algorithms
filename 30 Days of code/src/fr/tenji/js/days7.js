@@ -4,8 +4,8 @@
 // process.stdin.resume();
 process.stdin.setEncoding('ascii');
 
-var input_stdin = "";
-var input_stdin_array = "";
+var input_stdin = '';
+var input_stdin_array = '';
 var input_currentline = 0;
 var count = 1;
 process.stdin.on('data', function (data) {
@@ -15,9 +15,8 @@ process.stdin.on('data', function (data) {
         process.stdin.end();
     }
 });
-
 process.stdin.on('close', function () {
-    input_stdin_array = input_stdin.split("\n");
+    input_stdin_array = input_stdin.split('\n');
     main();
 });
 
@@ -26,10 +25,9 @@ function readLine() {
 }
 
 /////////////// ignore above this line ////////////////////
-
 function main() {
     // var n = parseInt(readLine());
-    arr = readLine().split(' ');
+    var arr = readLine().split(' ');
     console.log(arr);
     arr = arr.map(Number);
     var arr2 = [];

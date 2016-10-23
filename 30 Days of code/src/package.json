@@ -8,11 +8,11 @@
   },
   "author": "",
   "devDependencies": {
-    "eslint": "^3.6.1",
     "eslint-config-google": "^0.6.0",
     "eslint-plugin-node": "^2.1.1",
     "eslint-plugin-react": "^6.3.0",
-    "eslint-plugin-require-jsdoc": "^1.0.4"
+    "eslint-plugin-require-jsdoc": "^1.0.4",
+    "jshint": "^2.9.3"
   },
   "license": "ISC"
 }
